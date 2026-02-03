@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       vite:
-        specifier: ^7.2.4
+        specifier: ^7.3.1
         version: 7.3.1
 
 packages:
