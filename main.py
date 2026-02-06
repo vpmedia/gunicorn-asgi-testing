@@ -55,7 +55,7 @@ async def get_result(db):
     await asyncio.sleep(1)
     return result
 
-@app.get("/")
+@app.get("/db")
 async def index(db: Annotated[AsyncSession, Depends(get_db)]):
     logging.info("index")
     result = await get_result(db)
